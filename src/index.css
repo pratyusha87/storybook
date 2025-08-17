@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: 0 0% 0%;
+}
+
+body {
+  @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-50 antialiased;
+}
+.card {
+  @apply w-[min(880px,92vw)] rounded-2xl shadow-soft border border-gray-200 dark:border-gray-800 p-6 bg-white dark:bg-gray-900;
+}
+.label {
+  @apply block mb-1.5 text-sm font-medium text-gray-800 dark:text-gray-100;
+}
+.helper {
+  @apply mt-1 text-xs text-gray-500 dark:text-gray-400;
+}
+.error {
+  @apply mt-1 text-xs text-red-500;
+}
+.btn {
+  @apply inline-flex items-center justify-center h-10 px-4 rounded-xl bg-gray-900 text-white dark:bg-white dark:text-gray-900;
+}
