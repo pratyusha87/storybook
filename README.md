@@ -1,4 +1,4 @@
-# 🎨 React Component Development Assignment (Storybook-first)
+# 🎨 React Component Development Assignment
 
 Two components built with **React + TypeScript + Tailwind**, documented in **Storybook**.
 
